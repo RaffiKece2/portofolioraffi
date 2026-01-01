@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ganjil_Genap"/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-07-29 10:26:14 AM"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtNENGSk1RUzsyMDI1LTA3LTI5OzA4OjQ2OjA3IEFNOzMwMjc="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtNENGSk1RUzsyMDI1LTA3LTI5OzEwOjI2OjE0IEFNOzE7MzEyNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angka" type="Integer" array="False" size=""/>
+            <input variable="angka"/>
+            <assign variable="angka" expression="angka % 2"/>
+            <if expression="angka = 0">
+                <then>
+                    <output expression="&quot;Genap&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ganjil&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

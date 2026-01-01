@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Search"/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-04 05:57:41 PM"/>
+        <attribute name="created" value="YXN1cztERVNLVE9QLTVSNDJPNlI7MjAyNS0wNy0yOTswNzo1Njo0MCBQTTsyNzcy"/>
+        <attribute name="edited" value="YXN1cztERVNLVE9QLTVSNDJPNlI7MjAyNS0wOC0wMTswMzo0NzowMCBQTTszOzI4NjU="/>
+        <attribute name="edited" value="YXN1cztTTElNTUFUVVJFOzIwMjUtMDgtMDQ7MDU6NTc6NDEgUE07MzsyNjEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="user, angka, generate, hasil" type="Integer" array="False" size=""/>
+            <declare name="display" type="Integer" array="True" size="15"/>
+            <for variable="angka" start="0" end="random(14)" direction="inc" step="1">
+                <assign variable="display[angka]" expression="angka + 1"/>
+                <assign variable="generate" expression="display[angka]"/>
+            </for>
+            <output expression="&quot;Cari Angka &quot; &amp;generate" newline="True"/>
+            <input variable="user"/>
+            <for variable="angka" start="0" end="14" direction="inc" step="1">
+                <assign variable="hasil" expression="random(angka + 1)"/>
+                <declare name="angkaSeluruh" type="Integer" array="True" size="15"/>
+                <assign variable="angkaSeluruh[angka]" expression="random(angka + 1)"/>
+                <if expression="angkaSeluruh[angka] == user">
+                    <then>
+                        <output expression="&quot;Angka ketemu di index &quot; &amp;hasil" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="angkaSeluruh[angka]" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Sorting Asc"/>
+        <attribute name="authors" value="asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-03 01:34:37 PM"/>
+        <attribute name="created" value="YXN1cztERVNLVE9QLTVSNDJPNlI7MjAyNS0wOC0wMTswMzo0Nzo0MyBQTTsyNzYy"/>
+        <attribute name="edited" value="YXN1cztERVNLVE9QLTVSNDJPNlI7MjAyNS0wOC0wMTswMzo1NzowOSBQTTsxOzI4NzM="/>
+        <attribute name="edited" value="YXN1cztTTElNTUFUVVJFOzIwMjUtMDgtMDM7MDE6MzQ6MzcgUE07NDsyNjA4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="angkaRandom, isi, tambah" type="Integer" array="False" size=""/>
+            <declare name="angka, angkaSecond" type="Integer" array="True" size="100"/>
+            <assign variable="angkaRandom" expression="random(100)"/>
+            <output expression="&quot;angka desc: &quot;" newline="True"/>
+            <for variable="isi" start="angkaRandom" end="1" direction="dec" step="1">
+                <assign variable="angka[isi]" expression="random(isi)"/>
+                <output expression="angka[isi]" newline="True"/>
+            </for>
+            <output expression="&quot;to: &quot;" newline="True"/>
+            <output expression="&quot;angka Asc: &quot;" newline="True"/>
+            <for variable="isi" start="1" end="angkaRandom" direction="inc" step="1">
+                <assign variable="angkaSecond[isi]" expression="random(isi)"/>
+                <output expression="angkaSecond[isi]" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,64 @@
+{
+    "intents" : [
+        {
+            "tag": "jarvis",
+            "patterns": ["hai","halo","hai jarvis","halo jarvis","apakabar","apakabar jarvis","jarvis"],
+            "respones": ["hai, ada apa??, apakah ada sesuatu??","halo kenapa ??","apakabar juga apakah anda baik baik saja??","iya , saya bisa mendengarmu!"]
+            
+        },
+        {
+            "tag": "identitas",
+            "patterns": ["siapa kamu","siapa","siapa anda","siapakah","siapakah kamu"],
+            "respones": ["saya adalah jarvis!","tentu!, saya jarvis siap membantu","baik, saya jarvis anda","aku jarvis!,ada yang bisa kami bantu??","saya jarvis anda ,"]
+        },
+        {
+            "tag": "pujian",
+            "patterns": ["baik","tidak baik"],
+            "respones": ["wah, itu lumayan","serius?!","mantab , semoga hari mu indah!!","baik , tidak apa apa tuan"]
+
+        },
+        {
+            "tag": "salam",
+            "patterns": ["terimakasih","sampai jumpa","bye bye","bye"],
+            "respones": ["sama - sama tuan, semoga hari mu bagus!!","sampai jumpa senang berbicara dengan mu!","bye sampai jumpa di lain hari","baik tuan anda bisa cabut!"]
+        }
+    ],
+    "command" : [
+        {
+            "tag": "pertanyaan",
+            "patterns": ["apa itu","kenapa","berapa","bagaimana","dimana"],
+            "respones": []
+        }
+    ],
+    "kritikan": [
+        {
+            "tag": "kritik",
+            "patterns": ["jelek","sangat jelek","lumayan jelek","tidak bagus","lumayan tidak bagus","sampah","lumayan sampah","sangat sampah"],
+            "respones": ["maaf kalau jelek, saya akan memperbaiki!!","maaf tuan, itu memang agak sedikit kesalahan!!","oh ya??,aku akan memperbaikinya!!","aw, tuan itu sangat menyakitkan!!","oke,saya akan memperbaiki segera"]
+        }
+    ],
+
+    "saran": [
+        {
+            "tag": "bantuan",
+            "patterns": ["lumayan","bagus","sangat bagus","lumayan bagus"],
+            "respones": ["wah,terimakasih tuan, itu akan membuat saya lebih semangat!","oke itu sudah cukup","baik tuan, saya akan membuat lebih dari itu!","ya, saya tahu itu!!"]
+        }
+    ],
+
+    "jam": [
+        {
+            "tag": "waktu",
+            "patterns": ["jam","jam berapa","sekarang"],
+            "respones": []
+        
+        }
+    ],
+    "siang": [
+        {
+            "respones": ["ini siang","sekarang siang","saat ini siang","siang"]
+        }
+    ]
+
+    
+}

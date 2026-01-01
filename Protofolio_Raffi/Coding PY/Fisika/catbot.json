@@ -1,0 +1,22 @@
+{
+    "intents": [
+        {
+            "tag": "sapaan",
+            "pattern": ["hai","halo","apakabar","halo bot","hai bot"],
+            "respones": ["hai, ada yang bisa di bantu?","halo ada apa??","baik, bagaimana dengan anda??","halo juga","hai juga"]
+        },
+    
+        {
+            "tag": "identitas",
+            "pattern": ["siapa","siapa kamu","kamu siapa"],
+            "respones": ["saya chatbot!,hehe","saya adalah chatbot mu tuan","saya chatbot yang siap membantu"]
+        },
+        {
+            "tag": "perpisahan",
+            "pattern": ["sampai jumpa","bye bye","bye"],
+            "respones": ["baik, sampai jumpa di lain hari!","bye bye juga","baik tuan"]
+        }
+
+    ]
+    
+}

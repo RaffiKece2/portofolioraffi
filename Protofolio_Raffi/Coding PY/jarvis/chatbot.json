@@ -1,0 +1,35 @@
+{
+    "intenst": [
+        {
+            "tag": "sapaan",
+            "patterns": ["halo","hai","halo jarvis","hai jarvis","jarvis"],
+            "respones": ["Hai, ada yang bisa kami bantu?","halo juga , ada apa??","iya, saya disini , ada apa??"]
+        },
+        {
+            "tag": "salam",
+            "patterns": ["terimakasih","sampai jumpa","sampai jumpa jarvis","terimakasih jarvis","bye jarvis","bye bye ","bye bye jarvis"],
+            "respones": ["baik , saya akan berbicara sama anda lagi nanti","sampai jumpa semoga hari mu senang","tentu, semoga hari mu beruntung"]
+
+        }
+    ],
+
+    "tanya": [
+        {
+            "tag": "judul",
+            "patterns": [],
+            "respones": []
+        },
+        {
+            "tag": "ringkasan",
+            "patterns": ["apa","apa itu","kenapa","kenapa itu","bagaimana","bagaimana itu"],
+            "respones": []
+        },
+        {
+            "tag": "kontent",
+            "patterns": [],
+            "respones": []
+        }
+    ]
+        
+    
+}

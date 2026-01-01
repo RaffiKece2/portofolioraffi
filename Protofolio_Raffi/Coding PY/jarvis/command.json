@@ -1,0 +1,25 @@
+{
+    "jawab": [
+        {
+            "tag": "sapaan",
+            "patterns": [
+                "jarvis",
+                "oh halo btw",
+                "jarvis hai",
+                "halooo, jarvisss",
+                "jarviss haiiii",
+                "haloo jarvis",
+                "halo",
+                "hai"
+            ],
+            "respone": [
+                "halo tuan",
+                "hai tuan",
+                "hai, ada apa??",
+                "halo ada apa??",
+                "hai tuan, ada apa??",
+                "halo tuan,ada apa??"
+            ]
+        }
+    ]
+}

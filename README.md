@@ -1,6 +1,6 @@
 ##  👋 Hi, saya Raffi
 
-🚀 AI dan 3D model
+🚀 AI 
 🤖 Robotik dan komputer visual
 
 ### 🛠 Tech Stack
@@ -8,4 +8,4 @@
 - OpenCV
 - MediaPipe
 - Arduino
-- Blender
+- PHP
